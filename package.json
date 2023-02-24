@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This assignment will help you learn to create an installable Node.js command line utility.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node.cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
@@ -10,7 +11,6 @@
     "galosh.js": "./cli.js"
   },
   "repository": {
-    "type": "module",
     "url": "git+https://github.com/comp426-2023-spring/a02-functions-wdrayton.git"
   },
   "author": "wdrayton",
