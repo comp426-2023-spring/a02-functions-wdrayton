@@ -3,7 +3,7 @@
 import  minimist  from 'minimist'
 import  moment  from 'moment-timezone'
 import  fetch  from 'node-fetch'
-import exit from 'process'
+import exit from 'node:process'
 
 const args = minimist(process.argv.slice(2));
 
